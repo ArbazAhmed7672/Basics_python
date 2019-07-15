@@ -33,7 +33,7 @@ def age_calculator():
         else:
             print("But you are under 18 year's")
     else:
-        return f"you entered string(letters) but most probably you have to enter number(int or float)"
+        print(f"you entered string(letters) but most probably you have to enter number(int or float)")
 age_calculator()
 
 
