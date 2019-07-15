@@ -25,7 +25,7 @@ def coin_flip():
     print("\n"*100)
     def coin_flipping():
         global n
-        aa = input("what you want to choose Heads or Tails:> ")
+        aa = input("what do you want to choose Heads or Tails:> ")
         i = random.choice(["Heads", "Tails"])
         if len(aa) >= 1:
             while aa[0].lower() == 'h' or aa[0].lower() == 't':
