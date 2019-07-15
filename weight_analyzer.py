@@ -1,16 +1,13 @@
-name = "any one"
-print("weight is")
-weight_kg = int(input())
-print("height is")
-height_m = float(input())
+name = input("please provide your name:> ")
+weight_kg = int(input("weight is"))
+height_m = float(input("height is"))
 bmi = weight_kg/ (height_m ** 2)
-
 print("bmi: ",bmi)
 if bmi < 25:
-    print("not overweight")
+    print(name + ", you are not overweight")
 
 elif bmi == 25:
-    print("you are at the border of overweight")
+    print(name +", you are at the border of overweight")
 
 else:
-    print("you are over weight")
+    print(name +", you are over weight")
