@@ -1,6 +1,6 @@
 name = input("please provide your name:> ")
-weight_kg = int(input("weight is"))
-height_m = float(input("height is"))
+weight_kg = int(input("weight is:> "))
+height_m = float(input("height is:> "))
 bmi = weight_kg/ (height_m ** 2)
 print("bmi: ",bmi)
 if bmi < 25:
