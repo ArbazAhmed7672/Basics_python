@@ -1,7 +1,7 @@
 #age_calculator_and_voter_predictor
 
 ww = int(input("your date of birth:> "))
-if ww in range(0,5000):
+if ww in range(0, 5000):
     print(ww, "-birth year")
     if ww <= 2019:
         age = 2019 - int(ww)
