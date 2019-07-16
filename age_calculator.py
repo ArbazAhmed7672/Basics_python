@@ -29,4 +29,4 @@ if ww in range(0,5000):
     else:
         print("But you are under 18 year's")
 else:
-    print(f"you entered string(letters)")
+    print(f"you entered string(letters).")
